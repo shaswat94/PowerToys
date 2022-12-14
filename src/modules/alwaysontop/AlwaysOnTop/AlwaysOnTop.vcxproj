@@ -173,6 +173,9 @@
   <ItemGroup>
     <ResourceCompile Include="AlwaysOnTop.rc" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="Images\AlwaysOnTop.ico" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <Import Project="..\..\..\..\deps\spdlog.props" />
   <ImportGroup Label="ExtensionTargets">
